@@ -1,0 +1,12 @@
+.chipsEditionForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  
+  .boutonModifier{
+    padding: 25px!important;
+    margin-bottom: 15px;
+  }

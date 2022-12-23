@@ -4,6 +4,15 @@
   "newProjectRoot": "projects",
   "projects": {
     "my-app": {
+      "i18n": {
+        "sourceLocale": "fr-CA",
+        "locales": {
+          "en": {
+            "translation": "src/locale/messages-en.xlf",
+            "baseHref": ""
+          }      
+        }
+      },
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -25,6 +34,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -58,9 +68,13 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          
           "configurations": {
             "production": {
               "browserTarget": "my-app:build:production"
+            },
+            "en": {
+              "browserTarget": "my-app:build:en"
             },
             "development": {
               "browserTarget": "my-app:build:development"
@@ -87,6 +101,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -94,5 +109,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "5b1ae113-aa89-4667-ab07-af8998456b64"
   }
 }

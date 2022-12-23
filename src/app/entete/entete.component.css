@@ -1,0 +1,22 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(63, 81, 181);
+   
+    padding: 10px;   
+}
+
+h1, h2, a{
+    color: white;
+}
+.bouton {
+    padding: 10px!important;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+  }
+
+.test{
+    position: absolute;
+    right: 0;
+}

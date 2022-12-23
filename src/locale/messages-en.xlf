@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="3704797194560734590" datatype="html">
+        <source>Nom d&apos;utilisateur</source>
+        <target>Username</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/authentification/authentification.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2272120300351402791" datatype="html">
+        <source>Mots de passe</source>
+        <target>Passwords</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/authentification/authentification.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2332138031403108733" datatype="html">
+        <source>Acceuil</source>
+        <target>Home</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/entete/entete.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3649429626284307893" datatype="html">
+        <source>Moyenne lipides</source>
+        <target>Fat average</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/entete/entete.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7608172920109901575" datatype="html">
+        <source>Glucides Maximal</source>
+        <target>Maximum carbohydrates</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/entete/entete.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8021687558521014030" datatype="html">
+        <source>Option</source>
+         <target>Option</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4912499806565760107" datatype="html">
+        <source>Recherche</source>
+        <target>Research</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5829380065548494521" datatype="html">
+        <source>Rechercher</source>
+        <target>Research</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7672884386783524201" datatype="html">
+        <source>Le nom est requis.</source>
+        <target>Name is required</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2142012357822310270" datatype="html">
+        <source>Le nom doit contenir au moin 4 caractère.</source>
+        <target>The name need to have atleast 4 carcteres</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6308068746110584927" datatype="html">
+        <source>Le nom doit contenir moin de 25 caractères.</source>
+        <target>The name need to have less than 25 carateres.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7500174513713481888" datatype="html">
+        <source>La marque est requise.</source>
+        <target>The brand name is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="770571592911488628" datatype="html">
+        <source>La marque doit contenir moin de 25 caractères.</source>
+        <target>The brand name need to have less than 25 carateres.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3044863145279969603" datatype="html">
+        <source>Le nombre de lipides est requis.</source>
+        <target>The number of fat is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="178300726775525139" datatype="html">
+        <source>Le nombre de lipides ne peut être négatif.</source>
+        <target>The number of fat cant be negative.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4399755199773108906" datatype="html">
+        <source>Le nombre de lipides ne peut être plus grand que 999.</source>
+        <target>The number of fat cant be higher than 999.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3870907274630984270" datatype="html">
+        <source>Le nombre de glucides est requis.</source>
+        <target>The number of fat is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8783987353573295822" datatype="html">
+        <source>Le nombre de glucides ne peut être négatif.</source>
+        <target>The number of carbohydrates cant be negatif</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8788858032109888409" datatype="html">
+        <source>Le nombre de glucides ne peut être plus grand que 999.</source>
+        <target>The number of carbohydrates cant be higher than 999.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5280675125003846077" datatype="html">
+        <source>Le nombre de protéines est requis.</source>
+        <target>The number of proteine is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7993811288468587241" datatype="html">
+        <source>Le nombre de proteines ne peut être négatif.</source>
+        <target>The number of proteine cant be negatif</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8605340168042967726" datatype="html">
+        <source>Le nombre de protéines ne peut être plus grand que 999.</source>
+        <target>The number of proteine cant be higher than 999</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2038082152527034775" datatype="html">
+        <source> Nom </source>
+        <target>Name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9004858810116993479" datatype="html">
+        <source>Marque </source>
+           <target>Brand name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9014909952471503859" datatype="html">
+        <source>lipides </source>
+        <target>Fat</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4894245032166837991" datatype="html">
+        <source>Glucides </source>
+        <target>Carbohydrates</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6977177347208526968" datatype="html">
+        <source>Proteines</source>
+        <target>Proteines</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/liste-chips/liste-chips.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8774096009486124990" datatype="html">
+        <source> Le nom est requis. </source>
+        <target>The name is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modifier-chips-form/modifier-chips-form.component.html</context>
+          <context context-type="linenumber">7,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6801426673167249708" datatype="html">
+        <source> Le nom doit contenir au moin 4 caractère. </source>
+        <target>The name need to have at least 4 characters.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modifier-chips-form/modifier-chips-form.component.html</context>
+          <context context-type="linenumber">10,12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modifier-chips-form/modifier-chips-form.component.html</context>
+          <context context-type="linenumber">25,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2009173891528409643" datatype="html">
+        <source> Le nom doit contenir moin de 25 caractères. </source>
+        <target>The name need to have less than 25 characters.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modifier-chips-form/modifier-chips-form.component.html</context>
+          <context context-type="linenumber">13,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1662193206069171530" datatype="html">
+        <source> La marque est requise. </source>
+        <target>The brand name is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modifier-chips-form/modifier-chips-form.component.html</context>
+          <context context-type="linenumber">22,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3381714064486947518" datatype="html">
+        <source> La marque doit contenir moin de 25 caractères. </source>
+        <target>The brand name need to have less than 25 characters.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modifier-chips-form/modifier-chips-form.component.html</context>
+          <context context-type="linenumber">28,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5894415917998484916" datatype="html">
+        <source> Le nombre de lipides est requis. </source>
+        <target>The brand name is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modifier-chips-form/modifier-chips-form.component.html</context>
+          <context context-type="linenumber">37,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="669417220847036623" datatype="html">
+        <source> Le nombre de lipides ne peut être négatif. </source>
+        <target>The number of fat cant be négative.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modifier-chips-form/modifier-chips-form.component.html</context>
+          <context context-type="linenumber">40,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3228132962440676395" datatype="html">
+        <source> Le nombre de lipides ne peut être plus grand que 999. </source>
+        <target>The number of fat cant be higher than 999.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modifier-chips-form/modifier-chips-form.component.html</context>
+          <context context-type="linenumber">43,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5341523076496665896" datatype="html">
+        <source> Le nombre de glucides est requis. </source>
+        <target>The number of carbohydrates is required.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modifier-chips-form/modifier-chips-form.component.html</context>
+          <context context-type="linenumber">52,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5145874797292339255" datatype="html">
+        <source> Le nombre de glucides ne peut être négatif. </source>
+        <target>The number of carbohydrates cant be négative.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modifier-chips-form/modifier-chips-form.component.html</context>
+          <context context-type="linenumber">55,57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1651720516154630602" datatype="html">
+        <source> Le nombre de glucides ne peut être plus grand que 999. </source>
+        <target>The number of carbohydrates cant be higher than 999. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modifier-chips-form/modifier-chips-form.component.html</context>
+          <context context-type="linenumber">58,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1367890335303519425" datatype="html">
+        <source> Le nombre de protéines est requis. </source>
+        <target>The number of protein is required. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modifier-chips-form/modifier-chips-form.component.html</context>
+          <context context-type="linenumber">67,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3574327019127813584" datatype="html">
+        <source> Le nombre de proteines ne peut être négatif. </source>
+        <target>The number of protein cant be negative.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modifier-chips-form/modifier-chips-form.component.html</context>
+          <context context-type="linenumber">70,72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1897376840761861831" datatype="html">
+        <source> Le nombre de protéines ne peut être plus grand que 999. </source>
+        <target>The number of protein cant be higher than 999.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modifier-chips-form/modifier-chips-form.component.html</context>
+          <context context-type="linenumber">73,75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1785052497460968940" datatype="html">
+        <source>Modifier</source>
+        <target>Edit</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modifier-chips-form/modifier-chips-form.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,78 @@
+<form #chipsEditionForm="ngForm" class="chipsEditionForm" id="chipsEditionForm" (ngSubmit)="chipsEditionForm.form.valid && onEdit(chipsEditionForm)">
+    <mat-form-field appearance="fill">
+        <input type="text" name="nom" required minlength="4" maxlength="25" [(ngModel)]="data.nom" matInput
+            #nom="ngModel" placeholder="Nom">
+        <div *ngIf="nom.invalid && (nom.dirty || nom.touched)" class="alert">
+        </div>
+        <div *ngIf="nom.errors?.['required']" i18n>
+            Le nom est requis.
+        </div>
+        <div *ngIf="nom.errors?.['minlength']" i18n>
+            Le nom doit contenir au moin 4 caractère.
+        </div>
+        <div *ngIf="nom.errors?.['maxlength']" i18n>
+            Le nom doit contenir moin de 25 caractères.
+        </div>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <input type="text" name="marque" required minlength="4" maxlength="25" [(ngModel)]="data.marque" matInput
+            #marque="ngModel" placeholder="Marque">
+        <div *ngIf="marque.invalid && (marque.dirty || marque.touched)" class="alert">
+        </div>
+        <div *ngIf="marque.errors?.['required']" i18n>
+            La marque est requise.
+        </div>
+        <div *ngIf="marque.errors?.['minlength']" i18n>
+            Le nom doit contenir au moin 4 caractère.
+        </div>
+        <div *ngIf="marque.errors?.['minlength']" i18n>
+            La marque doit contenir moin de 25 caractères.
+        </div>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <input type="number" name="lipides" required min="0" max="50" [(ngModel)]="data.lipides" matInput
+            #lipides="ngModel" placeholder="Lipides">
+        <div *ngIf="lipides.invalid && (lipides.dirty || lipides.touched)" class="alert">
+        </div>
+        <div *ngIf="lipides.errors?.['required']" i18n>
+            Le nombre de lipides est requis.
+        </div>
+        <div *ngIf="lipides.errors?.['min']" i18n>
+            Le nombre de lipides ne peut être négatif.
+        </div>
+        <div *ngIf="lipides.errors?.['max']" i18n>
+            Le nombre de lipides ne peut être plus grand que 999.
+        </div>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <input type="number" name="glucides" required minlength="0" maxlength="50" [(ngModel)]="data.glucides" matInput
+            #glucides="ngModel" placeholder="Glucides">
+        <div *ngIf="glucides.invalid && (glucides.dirty || glucides.touched)" class="alert">
+        </div>
+        <div *ngIf="glucides.errors?.['required']" i18n>
+            Le nombre de glucides est requis.
+        </div>
+        <div *ngIf="glucides.errors?.['min']" i18n>
+            Le nombre de glucides ne peut être négatif.
+        </div>
+        <div *ngIf="glucides.errors?.['max']" i18n>
+            Le nombre de glucides ne peut être plus grand que 999.
+        </div>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <input type="number" name="proteine" required minlength="2" maxlength="50" [(ngModel)]="data.proteines" matInput
+            #proteines="ngModel" placeholder="Proteines">
+        <div *ngIf="proteines.invalid && (proteines.dirty || proteines.touched)" class="alert">
+        </div>
+        <div *ngIf="proteines.errors?.['required']" i18n>
+            Le nombre de protéines est requis.
+        </div>
+        <div *ngIf="proteines.errors?.['min']" i18n>
+            Le nombre de proteines ne peut être négatif.
+        </div>
+        <div *ngIf="proteines.errors?.['max']" i18n>
+            Le nombre de protéines ne peut être plus grand que 999.
+        </div>
+    </mat-form-field>
+    <button mat-raised-button class="boutonModifier" color="primary" i18n>Modifier</button>
+</form>

@@ -1,0 +1,16 @@
+    <h1>Glucides maximal par marques</h1>
+    <table #glucicesMaxTable mat-table [dataSource]="statistiqueGlucideMax" class="mat-elevation-z8">
+      <ng-container matColumnDef="marque">
+          <th mat-header-cell *matHeaderCellDef i18n>Marque</th>
+          <td mat-cell *matCellDef="let statistique"> {{statistique._id}}
+        </ng-container>
+  
+      <ng-container matColumnDef="glucidesMax">
+        <th mat-header-cell *matHeaderCellDef i18n>Glucides Maximal</th>
+        <td mat-cell *matCellDef="let statistique"> {{statistique.glucidesMax}}
+      </ng-container>
+  
+      <tr mat-header-row *matHeaderRowDef="displayedColumn"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumn;"></tr>
+    </table>
+  
